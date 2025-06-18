@@ -15,13 +15,21 @@ If Java of version 17 and above is not already installed:
 
 ## 2. Unzip the file and navigate to the project in a terminal 
 
+## 3. Get JUnit 5
+Create a folder named "lib" in the project directory.
 
-## 3. Compile the Code
+Download the JUnit Console Standalone JAR:
+
+- [Download junit-platform-console-standalone-1.10.0.jar](https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.10.0/junit-platform-console-standalone-1.10.0.jar)
+
+And place it in the created "lib" folder.
+
+## 4. Compile the Code
 
 By running the following line of code in your terminal:
 >`javac -d out -cp "lib/*" src/*.java`
 
-## 4. Run the program
+## 5. Run the program
 
 You can run the code with 4 different arguments:
 
@@ -45,7 +53,7 @@ In which case the not included arguments within the program will be set to defau
 >`-resname` = results.txt<br>
 >`-res` = b<br>
 
-## 5. Run the Tests
+## 6. Run the Tests
 
 The tests can be executed by running the following line of code in your terminal:
 >`java -jar lib/junit-platform-console-standalone-1.10.0.jar -cp out --scan-classpath`
