@@ -1,6 +1,8 @@
 ﻿# Data Processing System
 
-This is a flexible and extensible numerical data processing system designed as a foundation for automating a wide variety of real-world data computation tasks. The basic purpose of this program is to allow the user to manipulate their data by just writing the mathematical function with the program taking responsibility for checking for dependencies and running the function in the right order. This proof of concept program utilizes: 
+This is a flexible and extensible numerical data processing system designed as a foundation for automating a wide variety of real-world data computation tasks. 
+The basic purpose of this program is to allow the user to manipulate their data by just writing the mathematical function with the program taking responsibility for checking for dependencies and running the function in the right order. 
+This proof of concept program utilizes: 
 - automatic dependency management
 - streams for data calculation optimization
 - inheritance of an abstract function to create extendable code
