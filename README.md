@@ -40,7 +40,7 @@ You can run the code with 4 different arguments:
 
 An example of use:
 
->`java -cp out Main -params params.txt -channels c.txt -resname res.txt -res A Y b`
+>`java -cp out Main -params params.txt -channels foldername/c.txt -resname res.txt -res A Y b`
 
 The code can also be executed without any or all of the arguments:
 
@@ -48,8 +48,8 @@ The code can also be executed without any or all of the arguments:
 
 In which case the not included arguments within the program will be set to default values:
 
->`-params` = parameters.txt<br>
->`-channels` = channels.txt<br>
+>`-params` = testing-inputs/parameters.txt<br>
+>`-channels` = testing-inputs/channels.txt<br>
 >`-resname` = results.txt<br>
 >`-res` = b<br>
 
