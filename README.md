@@ -48,8 +48,8 @@ The code can also be executed without any or all of the arguments:
 
 In which case the not included arguments within the program will be set to default values:
 
->`-params` = testing-inputs/parameters.txt<br>
->`-channels` = testing-inputs/channels.txt<br>
+>`-params` = testing-input/parameters.txt<br>
+>`-channels` = testing-input/channels.txt<br>
 >`-resname` = results.txt<br>
 >`-res` = b<br>
 
