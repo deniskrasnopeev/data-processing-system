@@ -9,8 +9,8 @@ import java.util.Queue;
  */
 public class Main {
 
-  private static String paramFileName = "parameters.txt";
-  private static String channelsFileName = "channels.txt";
+  private static String paramFileName = "testing-input/parameters.txt";
+  private static String channelsFileName = "testing-input/channels.txt";
   private static String resultFileName = "results.txt";
   private static Queue<String> expResults = new LinkedList<>(Arrays.asList("b"));
 
